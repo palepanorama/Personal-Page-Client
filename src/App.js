@@ -1,16 +1,18 @@
 import React, {useState} from 'react';
+import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/Home';
+import Header from './components/Header';
 import About from './components/About';
 import Footer from './components/Footer';
 import ErrorPage from './components/ErrorPage';
-import Nav from './components/Nav';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
   return (
 
     <Router>
-      <Nav />
+      <Header />
       <Switch>
 
         <Route exact path="/">
