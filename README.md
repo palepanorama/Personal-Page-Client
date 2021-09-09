@@ -2,6 +2,11 @@
 
 This is my personal promotion website that potential employers or partners may view to gain some insight into my experience and capabilities. Projects will be added to the project page as I develop ones that are worthy of presentation.
 
+## How to Clone and Run App
+
+Clone from GitHub by entering git clone git@github.com:palepanorama/Personal-Page-Client.git in your terminal. Next, cd into the local repository on your machine. If using yarn, enter the command yarn install and yarn start; if using npm, enter npm install then npm start. 
+
+
 ## Available Scripts
 
 In the project directory, you can run:
