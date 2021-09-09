@@ -17,7 +17,7 @@ function About() {
             <Container className="d-flex">
                 <Container className="aboutContainer">
                     <div className="right-description">
-                        <h4 className="text-center">How I Fit In</h4>
+                        <h4 className="text-center">How I Work</h4>
                         <p>I am in search of employment that will challenge me to constantly improve. I recognize my limitations and am cognizant of the fact that I still have much to learn. I work well with others and would prefer to work in a team environment while also comfortable working primarily alone. I am open to relocation or remote work, contract or regular employment. Please do not hesitate to <a href="/contact">contact me</a> if you have any further questions or comments!</p>
                     </div>
                 </Container>

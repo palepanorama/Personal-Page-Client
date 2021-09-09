@@ -14,7 +14,7 @@ function Work() {
                 </Container>
             </Container>
 
-            <Container className="d-flex">
+            {/* <Container className="d-flex">
                 <Container className="aboutContainer">
                     <div className="right-description">
                         <h4>Some Other Project</h4>
@@ -30,19 +30,19 @@ function Work() {
                             <p>Here's a third one</p>
                         </div>
                 </Container>
-            </Container>
+            </Container> */}
 
             <div className="right-image">
                 <a href="https://github.com/palepanorama/legal-aid-client" target="_blank"><img src="./images/img5.png" /></a>
             </div>
-
+{/* 
             <div className="left-image">
                 <img src="./images/img4.jpeg" />
             </div>
 
             <div class="right-image-low">
                 <img src="./images/img4.jpeg" />
-            </div>
+            </div> */}
 
 
         </>
