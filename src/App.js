@@ -5,8 +5,8 @@ import Header from './components/Header';
 import About from './pages/About';
 import Work from './pages/Work';
 import Contact from './pages/Contact';
-import Footer from './pages/Footer';
-import ErrorPage from './pages/ErrorPage';
+import Footer from './components/Footer';
+import ErrorPage from './components/ErrorPage';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {

@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Purpose
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my personal promotion website that potential employers or partners may view to gain some insight into my experience and capabilities. Projects will be added to the project page as I develop ones that are worthy of presentation.
 
 ## Available Scripts
 

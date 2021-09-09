@@ -11,7 +11,6 @@ function About() {
                             <p className="left-description">I am a twenty-eight year old aspiring developer living in Alabama with experience and competency in multiple languages including JavaScript, Ruby, HTML5, CSS3 along with frameworks and libraries such as ReactJS, Redux, Ruby on Rails and Bootstrap. Since completing Flatiron School's Software Engineering program in June, I have entered into a job search which has been both challenging and edifying. </p>
                         </div>
                 </Container>
-
             </Container>
 
             <Container className="d-flex">
