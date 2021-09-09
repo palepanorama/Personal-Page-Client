@@ -1,11 +1,12 @@
-import React, {useState} from 'react';
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from './components/Home';
+import Home from './pages/Home';
 import Header from './components/Header';
-import About from './components/About';
-import Footer from './components/Footer';
-import ErrorPage from './components/ErrorPage';
+import About from './pages/About';
+import Work from './pages/Work';
+import Contact from './pages/Contact';
+import Footer from './pages/Footer';
+import ErrorPage from './pages/ErrorPage';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
@@ -15,12 +16,20 @@ function App() {
       <Header />
       <Switch>
 
-        <Route exact path="/">
-          <Home />
+        <Route exact path="/" component={Home}>
+         
         </Route>
 
         <Route path="/about">
           <About />
+        </Route>
+
+        <Route path="/work">
+          <Work />
+        </Route>
+
+        <Route path="/contact">
+          <Contact />
         </Route>
 
         <Route component={ErrorPage}/>
