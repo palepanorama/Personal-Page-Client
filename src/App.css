@@ -48,12 +48,14 @@
     position: absolute;
     right: 40px;
     width: 50%;
+    padding-right: 5rem;
 }
 
 .left-description {
     width: 45%;
     position: absolute;
     left: 60px;
+    padding-left: 5rem;
 }
 
 .aboutContainer {
